@@ -1,0 +1,26 @@
+<dialog id="font-selector" onmousedown="event.target == this && this.close()">
+    <fieldset>
+        <legend>Choose your font:</legend>
+        <input type="radio" name="font" id="font-ibm" checked/><label for="font-ibm">IBM</label><br/>
+        <input type="radio" name="font" id="font-monospace" /><label for="font-monospace">Monospace</label><br/>
+        <input type="radio" name="font" id="font-verdana" /><label for="font-verdana">Verdana</label><br/>
+    </fieldset>
+</dialog>
+<button id="font-selector-open">Tt</button>
+<script>
+    const dialog = document.getElementById("font-selector");
+    const showButton = document.getElementById("font-selector-open");
+    const radios = document.querySelectorAll('input[name="font"]');
+    for (const radio of radios) {
+        radio.addEventListener("click", () => {
+            localStorage.font = document.querySelector('input[name="font"]:checked').id;
+        });
+        radio.checked = false;
+    }
+    if (localStorage.font) {
+        document.getElementById(localStorage.font).checked = true;
+    } else {
+        document.getElementById("font-ibm").checked = true;
+    }
+    showButton.addEventListener("click", (e) => { dialog.showModal(); });
+</script>

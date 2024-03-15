@@ -1,0 +1,11 @@
+<div class="header-left">
+    {{ with .Site.Params.icon }}
+    <a href="/">
+        <img src="{{ absURL . }}" />
+    </a>
+    {{ end }}
+</div>
+<div class="header-right">
+    <h1>{{ site.Title }}</h1>
+    {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+</div>

@@ -1,0 +1,7 @@
+{{ with .Site.Copyright }}
+  <p>{{ . }}</p>
+{{ end }}
+{{ with .Site.Params.webbadge }}
+  <img style="width: 80px" src="{{ . }}"></img>
+{{ end }}
+

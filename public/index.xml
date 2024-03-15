@@ -1,11 +1,49 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>bardenn&#39;s blog</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <description>Recent content on bardenn&#39;s blog</description>
+    <language>en</language>
+    <managingEditor>bardennuk@gmail.com (Hussein Dennis)</managingEditor>
+    <webMaster>bardennuk@gmail.com (Hussein Dennis)</webMaster>
+    <copyright>© bardenn CC BY-SA 4.0</copyright>
+    <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>first post indeed!</title>
+      <link>http://localhost:1313/funny_newpost/</link>
+      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate><author>bardennuk@gmail.com (Hussein Dennis)</author>
+      <guid>http://localhost:1313/funny_newpost/</guid>
+      <description>Hello! this is my new post
+this is a list lists are pretty cool man do I love lists meow :3 look here is a code block:
+1def foo(): 2 return 1 3 4if __name__ == &amp;#34;__main__&amp;#34;: 5 foo() </description>
+      <content:encoded><![CDATA[<h1 id="hello">Hello!</h1>
+<p>this is my new post</p>
+<ul>
+<li>this is a list</li>
+<li>lists are pretty cool</li>
+<li>man do I love lists</li>
+</ul>
+<p><marquee> meow                  :3 </marquee></p>
+<p>look here is a code block:</p>
+<div class="highlight"><pre tabindex="0" style="color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">1</span><span><span style="color:#cba6f7">def</span> <span style="color:#89b4fa">foo</span>():
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">2</span><span>    <span style="color:#cba6f7">return</span> <span style="color:#fab387">1</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">3</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">4</span><span><span style="color:#cba6f7">if</span> <span style="color:#f5e0dc">__name__</span> <span style="color:#89dceb;font-weight:bold">==</span> <span style="color:#a6e3a1">&#34;__main__&#34;</span>:
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">5</span><span>    foo()
+</span></span></code></pre></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>init (this blog!)</title>
+      <link>http://localhost:1313/post2/</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate><author>bardennuk@gmail.com (Hussein Dennis)</author>
+      <guid>http://localhost:1313/post2/</guid>
+      <description>WIP
+details of this blog to come soon!</description>
+      <content:encoded><![CDATA[<p>WIP</p>
+<p><em>details of this blog to come soon!</em></p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>
