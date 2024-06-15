@@ -16,3 +16,4 @@ Below is a collection of blog post ideas, for me to note down (and for friends t
 - XV6 Post
 - XV6 Shell writeup (yuh)
 - NixOS pain post (kill it with hammers)
+- Hugo editor, wysiwyg-style editor that runs client side, and pushes updates to git
