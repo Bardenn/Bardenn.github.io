@@ -6,6 +6,7 @@ copyright = "© bardenn CC BY-SA 4.0"
 
 
 enableRobotsTXT = true
+enableEmoji = true
 capitalizeListTitles = false
 
 disableKinds = ["taxonomy"]
