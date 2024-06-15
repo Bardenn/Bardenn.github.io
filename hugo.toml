@@ -30,7 +30,7 @@ style = "catppuccin-mocha"
 
 [params]
 title = "baz's blog"
-description = "Personal blog, Compsci, Cybersec and Randomposting"
+description = "Personal blog, Compsci, hackery and Randomposting"
 favicon = "img/favicon.png"
 icon = "img/icon.png"
 dateFormat = "2006-01-02"
@@ -52,9 +52,15 @@ pageRef = "/blog"
 weight = 20
 
 [[menu.main]]
+name = "linkdex"
+url = "/linkdex"
+weight = 30
+
+[[menu.main]]
 name = "friends"
 url = "/friends"
 weight = 30
+
 
 [[menu.main]]
 name = "RSS"
